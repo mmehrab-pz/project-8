@@ -1,0 +1,224 @@
+@media screen and (max-width: 576px) {
+  header > section {
+    height: 570px;
+    background-size: cover;
+  }
+  header > section > div > section {
+    padding-left: 50px;
+  }
+  header > section > div > section > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  header > section > div > section > h1 {
+    font-size: 50px;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(1) > div {
+    padding-left: 3%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 0%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p {
+    text-align: start;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(1) {
+    font-family: mon-medium;
+    text-transform: capitalize;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(2) {
+    font-family: mon-light;
+  }
+}
+.area-2 > figure > img {
+  height: 400px;
+}
+.area-2 > figure > figcaption {
+  right: 38%;
+  top: 23%;
+  font-size: 26px;
+  width: 23%;
+}
+
+@media screen and (min-width: 576px) {
+  header > section {
+    height: 570px;
+    background-size: cover;
+  }
+  header > section > div > section {
+    padding-left: 50px;
+  }
+  header > section > div > section > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  header > section > div > section > h1 {
+    font-size: 50px;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(1) > div {
+    padding-left: 3%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 0%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p {
+    text-align: start;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(1) {
+    font-family: mon-medium;
+    text-transform: capitalize;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(2) {
+    font-family: mon-light;
+  }
+  .area-2 > figure > img {
+    height: 400px;
+  }
+  .area-2 > figure > figcaption {
+    right: 38%;
+    top: 23%;
+    font-size: 26px;
+    width: 23%;
+  }
+}
+@media screen and (min-width: 768px) {
+  header > section {
+    height: 100vh;
+  }
+  header > section > div > section {
+    padding-left: 90px;
+  }
+  header > section > div > section > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  header > section > div > section > h1 {
+    font-size: 70px;
+  }
+  .area-2 > figure > img {
+    height: 400px;
+  }
+  .area-2 > figure > figcaption {
+    right: 30%;
+    top: 23%;
+    font-size: 26px;
+    width: 23%;
+  }
+}
+@media screen and (min-width: 992px) {
+  header > section > div > section {
+    padding-left: 95px;
+  }
+  header > section > div > section > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  header > section > div > section > h1 {
+    font-size: 80px;
+  }
+  .area-2 > figure > img {
+    height: 400px;
+  }
+  .area-2 > figure > figcaption {
+    right: 15%;
+    top: 23%;
+    font-size: 26px;
+    width: 23%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header > section > div > section {
+    padding-left: 130px;
+  }
+  header > section > div > section > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  header > section > div > section > h1 {
+    font-size: 85px;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(1) > div {
+    padding-left: 15%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 15%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p {
+    text-align: end;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(1) {
+    font-family: mon-medium;
+    text-transform: capitalize;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(2) {
+    font-family: mon-light;
+  }
+  .area-2 > figure > img {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .area-2 > figure > figcaption {
+    right: 20%;
+    top: 24%;
+    font-size: 32px;
+    width: 21%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  header > section > div > section {
+    padding-left: 200px;
+  }
+  header > section > div > section > p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  header > section > div > section > h1 {
+    font-size: 90px;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(1) > div {
+    padding-left: 38%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 38%;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p {
+    text-align: end;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(1) {
+    font-family: mon-medium;
+    text-transform: capitalize;
+  }
+  .area-1 > div:nth-of-type(2) > section:nth-of-type(3) > div > p:nth-of-type(2) {
+    font-family: mon-light;
+  }
+  .area-2 > figure > img {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .area-2 > figure > figcaption {
+    right: 20%;
+    top: 30%;
+    font-size: 35px;
+    width: 23%;
+  }
+}/*# sourceMappingURL=local.css.map */
